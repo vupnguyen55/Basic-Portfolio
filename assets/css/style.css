@@ -1,3 +1,5 @@
+/**Index*****************************************/
+
 header{
     font-family: Georgia, Times, Times New Roman, serif;
 }
@@ -76,3 +78,52 @@ header > h2{
     border-bottom: 10px solid grey;
 
 }
+
+/** Portfolio ********************************/
+
+#portPicture > div{
+    padding: 10px;
+
+}
+
+#abstract, #capacitor{
+    margin-top: 40px;
+}
+
+/*.abs {
+    position: relative;
+    width: 100%;
+
+}
+
+.images {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    
+}
+*/
+
+/** Contacts ************************************/
+
+form {
+    font-size: 35px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.textBox{
+    font-size: 15px;
+}
+
+#submit{
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #DB4437;
+    color:white;
+    padding: 6px 20px 6px 20px;
+
+}
+
+
