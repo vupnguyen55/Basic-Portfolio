@@ -104,41 +104,6 @@ header > h2{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/**
-.portPicture img{
-    padding: 10px 25px 10px 0;
-
-}
-
-.abstract,
-.capacitor{
-    margin-top: 40px;
-}
-.portPicture {
-    position: relative;
-  }
-
-  .centered {
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-
-
 /** Contacts ************************************/
 
 form {
