@@ -81,29 +81,31 @@ header > h2{
 
 /** Portfolio ********************************/
 
-#portPicture > div{
-    padding: 10px;
+.portPicture img{
+    padding: 10px 25px 10px 0;
 
 }
 
-#abstract, #capacitor{
+.abstract,
+.capacitor{
     margin-top: 40px;
 }
+.abstract,
+.food,
+.tv {
+    position: static;
+    text-align: center;
+  }
 
-/*.abs {
-    position: relative;
-    width: 100%;
-
-}
-
-.images {
+  .centered {
+    z-index: 1;
     position: absolute;
-    top: 200px;
-    left: 0;
-    width: 100%;
-    
-}
-*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
 
 /** Contacts ************************************/
 
