@@ -80,7 +80,44 @@ header > h2{
 }
 
 /** Portfolio ********************************/
+.pic1 > img{
+    margin-top: 20px;
+}
 
+
+.pic1{
+    position: relative;
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5 {
+    position: absolute;
+    background-color: #DB4437;
+    color:white;
+    width: 32.8%;
+    padding: 10px;
+    top: 120px;
+    text-align: center
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
 .portPicture img{
     padding: 10px 25px 10px 0;
 
@@ -90,11 +127,8 @@ header > h2{
 .capacitor{
     margin-top: 40px;
 }
-.abstract,
-.food,
-.tv {
-    position: static;
-    text-align: center;
+.portPicture {
+    position: relative;
   }
 
   .centered {
