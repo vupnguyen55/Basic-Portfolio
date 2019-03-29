@@ -52,20 +52,20 @@ header > h2{
     border-bottom: 3px solid lightgrey;
 }
 
+#profilePic::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 #paraBody {
     border: 10px solid grey;
     background-color:white;
     margin: 50px 70px 50px 70px;
     font-size: 15px;
     line-height: 50px;
+    height: 1400px;
     padding: 30px 60px 30px 60px;
-}
-
-
-#paraBody::after{
-    content: "";
-    display: block;
-    clear: both;
 
 }
 
@@ -85,11 +85,13 @@ header > h2{
 }
 
 
-.pic1{
-    position: relative;
+.img1{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
 }
 
-.text1,
+/* .text1,
 .text2,
 .text3,
 .text4,
@@ -101,7 +103,7 @@ header > h2{
     padding: 10px;
     top: 120px;
     text-align: center;
-}
+} */
 
 
 /** Contacts ************************************/
@@ -125,4 +127,27 @@ form {
 
 }
 
+/** Responsive Design ***************************/
 
+/* @media screen and (max-width: 980px) and (min-width: 767px) {
+    #Contact,
+    #Portfolio,
+    #About, {
+        width: 80%;
+    }
+    .textBox{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 641px){
+    #Contact,
+    #Portfolio,
+    #About, {
+        width: 50%;
+    }
+    .textBox{
+        width: 50%;
+    }
+}
+
+   */
